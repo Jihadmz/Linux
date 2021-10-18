@@ -1,7 +1,11 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/debian">Debian</router-link> |
+    <router-link to="/arch">Arch</router-link> |
+    <router-link to="/ubuntu">Ubuntu</router-link> |
+    <router-link to="/fedora">Fedora</router-link> |
+    <router-link to="/linux-mint">Linux Mint</router-link>
   </div>
   <router-view />
 </template>

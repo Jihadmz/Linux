@@ -1,5 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
+import Debian from "../views/Debian.vue"
+import Arch from '../views/Arch.vue'
+import Ubuntu from '../views/Ubuntu.vue'
+import Fedora from '../views/Fedora.vue'
+import Linux_mint from '../views/Linux_mint.vue'
 
 const routes = [
   {
@@ -8,13 +13,29 @@ const routes = [
     component: Home,
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+    path: "/debian",
+    name: "Debian",
+    component: Debian,
+  },
+  {
+    path: "/arch",
+    name: "Arch",
+    component: Arch,
+  },
+  {
+    path: "/ubuntu",
+    name: "Ubuntu",
+    component: Ubuntu,
+  },
+  {
+    path: "/fedora",
+    name: "Fedora",
+    component: Fedora,
+  },
+  {
+    path: "/linux-mint",
+    name: "Linux_mint",
+    component: Linux_mint,
   },
 ];
 

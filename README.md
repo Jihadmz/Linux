@@ -1,24 +1,3 @@
-# portfolio
+# Linux
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This project is about describing what linux is and why you should try it as a computer scientist, as well as describing some popular linux distributions, inorder to get better insights about them to be able to choose the one that fits your needs
